@@ -1,0 +1,211 @@
+.green{
+    background-color: $color-dark-green;
+    @include respond(phone){
+       
+      
+ }
+
+ 
+    
+
+    &__part{
+       padding-top: 11rem;
+    }
+    
+    &__text{
+        font-size: 40px;
+        line-height: 49px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10rem;
+        
+    }
+
+    &__text2{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10rem;
+        margin-top: 1.5rem;
+    }
+
+
+    
+    &__text3{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+
+        & span{
+            margin-left:3px;
+            
+            cursor: pointer;
+        }
+
+        &:hover{
+
+            & span{
+                margin-left:4px;
+            }
+    
+        }
+    }
+
+
+
+
+
+
+
+    &__image1{
+        width: 89.8%;
+        margin: 2rem;
+       
+     
+    }
+
+    &__image2{
+        width: 89.8%;
+        margin: 2rem;
+       
+    }
+
+    &__image3{
+        width: 89.8%;
+        margin: 2rem;
+    }
+
+    &__image4{
+        width: 89.8%;
+        margin: 2rem;
+    }
+
+    &__image5{
+        width: 89.8%;
+        margin: 2rem;
+    }
+    &__image{
+        display: flex;
+        padding: 0 8rem;
+        margin-top: 5rem;
+
+        @include respond(phone){
+       display: flex;
+      
+       flex-wrap: wrap;
+       
+        }
+
+        @include respond(tab-land){
+            display: flex;
+            
+            
+            flex-wrap: wrap;
+        }
+    
+       
+      
+      
+    }
+
+    &__text4{
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        display: block;
+        text-transform: uppercase;
+        margin: 0 2rem;
+        cursor: pointer;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    &__text5{
+        font-size: 1.7rem;
+        line-height: 1.7rem;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        display: block;
+        margin: 1rem 2rem;
+        cursor: pointer;
+    }
+
+    &__take{
+        margin-left: 9.5rem;
+        margin-top: 15rem;
+        
+    }
+
+    &__take1{
+        font-size: 2.9rem;
+        line-height: 4rem;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+       
+     
+       
+    }
+
+    &__gone{
+        display: flex;
+        @include respond(tab-land){
+            display: flex;
+           flex-wrap: wrap;
+          
+        }
+    }
+
+    &__img{
+        margin-right: 10rem;
+        width: 4rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    &__forward{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        @include respond(tab-land){
+        
+          
+        }
+    
+    }
+
+    &__bus{
+        font-size: 1.9rem;
+        line-height: 2.2rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        display: block;
+    }
+
+    &__create{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        width: 25rem;
+        
+        margin-top: 2rem;
+        margin-bottom: 12rem;
+
+    }
+}

@@ -1,0 +1,194 @@
+.feature{
+    display: flex;
+    background-color: $color-light-lemon;
+    
+    position: relative;
+    @include respond(phone){
+            display: flex;
+            flex-direction: column;
+            background-color: $color-light-lemon;
+            margin-top: -1px;
+            position: relative;
+            
+           
+    }
+
+    
+    
+
+
+   
+
+    
+
+    @include respond(tab-land){
+            display: flex;
+            flex-direction: column;
+            background-color: $color-light-lemon;
+            margin-top: -1px;
+            position: relative;
+           
+
+
+    }
+
+    &__text{
+        flex-basis: 60%;
+        margin-left: 9.5rem;
+        margin-top: 10rem;
+
+        @include respond(phone){
+            margin: 5rem 5rem;
+        }
+    
+        @include respond(tab-port){
+            margin: 0rem 0rem;
+
+        }
+    
+        @include respond(tab-land){
+            margin: 5rem 5rem;
+
+        }
+    
+       
+        
+    }
+
+    &__text2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4.7rem;
+        line-height: 6.4rem;
+        font-weight: 800;
+        color: $color-dark-green;
+       
+           
+    
+
+    }
+
+    &__button{
+        margin-top: 3rem;
+        
+    }
+
+    &__input{
+        padding-right: 19rem;
+        padding-left: 5px;
+        padding-top: 1.9rem;
+        padding-bottom: 1.9rem;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #6565;
+        text-align: left;
+        
+        @include respond(phone){
+           max-width: 50%;
+           padding:  1rem 7rem;
+        }
+    
+        @include respond(tab-port){
+           
+           
+        }
+    
+        @include respond(tab-land){
+           
+           
+        }
+    
+        
+    }
+
+    &__btn{
+        margin-right: 1rem;
+      
+    }
+
+    &__text3{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: $color-light2-grey;
+    }
+
+
+    &__image{
+        width: 100%;
+        position: relative;
+    }
+
+    &__image1{
+       
+        width: 100%;
+        position: relative;
+
+        @include respond(phone){
+           
+        
+               
+        }
+        @include respond(tab-land){
+            
+
+    }
+    }
+
+    &__icon{
+        width: 1rem;
+        height: 1rem;
+        padding: 1rem 1rem;
+        position: absolute;
+        top: 52rem;
+        left: 129rem;
+        border: 20px;
+        background-color:#fff;
+        cursor: pointer;
+        position:absolute;
+        z-index: 1000;
+    }
+
+    @include respond(tab-land){
+        &__icon{
+            width: 1rem;
+            height: 1rem;
+            padding: 1rem 1rem;
+            position: absolute;
+            top: 92rem;
+            left: 106rem;
+            border: 20px;
+            background-color:#fff;
+            cursor: pointer;
+            position:absolute;
+        }
+    }
+
+    &__play{
+        
+        position: absolute;
+        top: 52.5rem;
+        left: 133rem;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #FFFFFF;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+
+      
+    }
+
+    @include respond(tab-land){
+        &__play{      
+        position: absolute;
+    top: 92rem;
+    left: 110rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+        }
+}
+}

@@ -1,0 +1,159 @@
+.chioma{
+
+    @include respond(phone){
+        flex-direction: column;
+        margin: 0;
+        
+ }
+  
+
+ 
+    display: flex;
+    margin: 10rem;
+   
+    @include respond(tab-port){
+        flex-direction: column;
+     }
+    @include respond(tab-land){
+       
+          
+        }
+
+    &__image{
+      
+       
+    }
+
+    &__tailor{
+        
+        max-width: 47rem;
+        height: 64.5rem;
+        border: 2px solid red;
+       
+        @include respond(tab-land){
+            width: 87rem;
+           
+           
+              
+            }
+            @include respond(phone){
+                width: 100%;
+            
+                
+            }
+    }
+
+
+    &__cee{
+        border: 2px solid rgb(28, 180, 41);
+        background-color:#002E25;
+        justify-content: center;
+        align-items: center;
+        max-width: 47rem;
+        display: flex;
+        flex-direction: column;
+        
+        
+        height: 64.5rem;
+        
+        @include respond(phone){
+           width: 100%;
+           margin-bottom: 5rem;
+         
+        }
+
+        @include respond(tab-port){
+            width: 100%;
+           
+         }
+    
+        @include respond(tab-land){
+            
+            
+                width: 100%;
+              
+              
+            }
+       
+    }
+
+    &__cee1{
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 4.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       margin-bottom: 5rem;
+        color: #ffffff;
+        
+        
+    }
+
+    &__ceeimg{
+        margin-bottom: 5rem;
+    }
+
+    &__cee2{
+       
+        text-align: center;
+        margin-bottom: 5rem;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 3rem;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        @include respond(phone){
+           
+           
+     }
+    }
+
+    &__btn{
+        border: none;
+        border: 1px solid #FFFFFF;
+        background-color: #002E25;
+        border-radius: 5px;
+        padding: 1.5rem 4rem 1.5rem 1.9rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+        cursor: pointer;
+
+        @include respond(phone){
+           
+           
+     }
+        
+        &:hover{
+            background-color: #ffffff;
+            color: #002E25;
+        }
+
+        &:hover > .chioma__play{
+            color: black;
+        }
+        
+
+       
+    }
+    &__icon{
+        padding: 0 7px;
+        
+    }
+
+    &__play{
+        font-size: 1.5rem;
+        color: #ffffff;
+        
+        
+        font-weight: 600;
+       
+       
+    }
+   
+    
+   
+}

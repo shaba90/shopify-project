@@ -1,0 +1,14 @@
+{
+  "name": "shopify",
+  "version": "1.0.0",
+  "description": "landing page for shopify",
+  "main": "index.js",
+  "scripts": {
+    "start":"node-sass sass/main.scss css/style.css "
+  },
+  "author": "shaba philip",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

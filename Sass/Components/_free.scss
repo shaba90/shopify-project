@@ -1,0 +1,102 @@
+.free{
+
+ 
+ @include respond(phone){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+@include respond(tab-port){
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@include respond(tab-land){
+ 
+display: flex;
+flex-direction: column;
+    
+align-items: center;
+justify-content: center;
+text-align: center;
+   
+ }
+
+
+
+ 
+  
+    &__journey{
+        text-align: center;
+        margin-top: 10rem;
+    }
+
+    &__journey1{
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 4rem;
+        color: #212326;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 1.5rem;
+    }
+
+    &__journey2{
+        font-size: 1.9rem;
+        font-weight: 400;
+        line-height: 2.5rem;
+        color: #6b7177;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 1rem;
+    }
+
+    &__back{
+        margin-left: 120rem;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+        color: #008060;
+        cursor: pointer;
+        margin-top: 7rem;
+
+        
+
+        @include respond(phone){
+          margin-left: 0rem;
+          margin-top: 1px;
+        
+          
+        }
+        @include respond(tab-port){
+            align-items: center;
+            margin-left: 0rem;
+         }
+
+         
+     
+         @include respond(tab-land){
+             margin-left: 0rem;
+         }
+
+       
+        & span{
+            margin-bottom:8px;
+            transition: all .5s;
+            
+            cursor: pointer;
+        }
+
+        &:hover{
+
+            & span{
+                margin-bottom:8px;
+            }
+    
+        }
+    }
+}

@@ -1,0 +1,253 @@
+.footer{
+    background-color: #002E25;
+    height: 68rem;
+    margin-top: 4rem;
+    
+    @include respond(phone){
+          height: 100%;
+          
+    }
+
+    @include respond(tab-land){
+        height: 100%;
+     
+    }
+    
+    @include respond(tab-port){
+        height: 100%;
+    }
+
+
+
+    
+
+    &__top{
+        display: flex;
+        margin-left: 10rem;
+        border-bottom: 1px solid #153F37;
+        
+    @include respond(phone){
+        flex-wrap: wrap;
+        margin-left: 5rem;
+        justify-content: center;
+       
+    }
+    @include respond(tab-land){
+    
+     flex-wrap: wrap;
+ }
+
+ @include respond(tab-port){
+   
+ }
+       
+
+
+        
+       
+        
+    }
+
+    &__top1{
+        display: inline-block;
+        margin-bottom: 1rem;
+        font-size: 1.7rem;
+        color: #ffffff;
+        line-height: 6rem;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 2rem;
+        transition: all .2s;
+        backface-visibility: hidden;
+        cursor: pointer;
+
+        &:hover{
+           
+            border-bottom: 3px solid white;
+           
+            color: white;
+        }
+    }
+
+    &__left{
+        display: flex;
+      
+        margin-left: 5rem;
+        
+        padding-left: 5rem;
+        width: 90vw;
+        @include respond(phone){
+        
+        flex-wrap: wrap;
+          
+          
+   }
+   @include respond(tab-land){
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+        
+
+        
+        
+        
+    }
+
+    &__left1{
+    margin-left: -20px;
+
+    @include respond(phone){
+        flex-wrap: wrap;
+       
+    }
+    @include respond(tab-land){
+    
+     flex-wrap: wrap;
+ }
+
+ @include respond(tab-port){
+    
+    
+ }
+ 
+
+
+    }
+    &__right{
+        margin-top: 3rem;
+        text-decoration: none;
+        list-style: none;
+        font-size: 1.6rem;
+        color: #78a19a;
+        line-height: 2.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin: 4rem 4rem;
+        width: 15rem;
+        @include respond(phone){
+            margin-top: 5rem;
+            
+            flex-wrap: nowrap;
+              
+          
+   }
+       
+        
+        
+       
+       
+         
+    }
+
+
+    &__li{
+        cursor: pointer;
+        transition: all .3s;
+     
+
+        &:hover{
+            color: #ffffff;
+        }
+    }
+
+    &__left2{
+        margin: 4rem 4rem;
+        color: white;
+        
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: #ffffff;
+        line-height: 1.5rem;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 15rem;
+
+        @include respond(phone){
+            margin-top: 3rem;
+           
+        }
+        @include respond(tab-land){
+        
+         
+     }
+    
+     @include respond(tab-port){
+        
+        
+     }
+        
+        
+       
+    }
+
+  
+    &__service{
+        display: flex;
+        width: 100%;
+        
+        margin-top: 5rem;
+        border-top: 1px solid #153F37;
+        justify-content: flex-end;
+
+    }
+
+    &__service1{
+        display: flex;
+        margin-top: 5rem;
+        margin-right: 1rem;
+       
+        
+    }
+    &__service2{
+        width:14rem;
+        
+        
+        font-size: 1.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 2.5rem;
+        color:#78a19a;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover{
+            color: #ffffff;
+        }
+    }
+
+    &__service3{
+        width:13rem;
+        
+        
+        font-size: 1.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 2.5rem;
+        color:#78a19a ;
+        cursor: pointer;
+
+        transition: all .3s;
+
+        &:hover{
+            color: #ffffff;
+        }
+
+    }
+
+    
+
+    &__service4{
+        margin-top: 5rem;
+        margin-right: 5rem;
+         
+        font-size: 1.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 2.5rem;
+        color:#ffffff;
+        
+        
+    }
+  
+}
